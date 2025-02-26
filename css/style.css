@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "tsunagi";
+    src: url("../font/TsunagiGothic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "kokoro";
+    src: url("../font/Kokoro.otf") format("opentype");
+}
+
+body {
+    background-color: #fdfdfd;
+    font-weight: 300;
+    font-style: normal;
+    color: #353f5e;
+    padding: 10%;
+    margin: 0;
+    font-family: "kokoro", serif;
+}
+
+a {
+    text-decoration: none;
+}
