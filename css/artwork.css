@@ -1,0 +1,43 @@
+h1 {
+    font-family: "tormentor";
+    font-size: 48px;
+    transform: rotate(-2deg);
+}
+
+img {
+    pointer-events: none;
+    user-select: none;
+}
+
+img, video {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 600px) {
+    img, video {
+        width: auto;
+        height: 100vh;
+    }
+}
+
+h2 {
+    font-size: 20px;
+    color: #fdfdfd;
+    border-radius: 30% 70% 48% 52% / 67% 30% 70% 33%;
+    width: 7em;
+    line-height: 2em;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 48px;
+}
+
+p:nth-of-type(1) {
+    font-family: "ktquantum";
+    font-weight: 1000;
+    margin-top: 0;
+}
+
+p {
+    text-align: center;
+}
