@@ -1,0 +1,31 @@
+h1 {
+    opacity: 0;
+    transform: translateX(-800px);
+    animation: fadeIn 1s ease forwards;
+    font-family: "tsunagi";
+    font-size: 32px;
+    color: #6b7fbb;
+    border-bottom: 4px solid #6b7fbb;
+    padding: 16px;
+    margin-top: 32px;
+}
+
+h2 {
+    text-align: center;
+    background-color: #6b7fbb;
+    color: #fdfdfd;
+    height: 2em;
+    padding: 8px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+h2:nth-child(1) {
+    width: 5em;
+    border-radius: 60% 40% 56% 44% / 40% 75% 25% 60%;
+}
+
+h2:nth-child(3) {
+    width: 8em;
+    border-radius: 74% 26% 25% 75% / 54% 22% 78% 46%;
+}

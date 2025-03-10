@@ -1,0 +1,135 @@
+h1 {
+    border-bottom: 2px solid #6b7fbb;
+    width: calc(5em + 16px);
+    text-align: center;
+}
+
+.image {
+    height: 240px;
+    width: 240px;
+    clip-path: circle(120px);
+    position: absolute;
+    padding: 8px;
+    text-align: center;
+    color: #fdfdfd;
+    pointer-events: none;
+    -webkit-touch-callout:none;
+    user-select:none;
+    top: 0;
+}
+
+.artwork:nth-of-type(2n-1) .image {
+    left: 0;
+}
+
+.artwork:nth-of-type(2n) .image {
+    right: 0;
+}
+
+.artwork:nth-of-type(1) .image {
+    background: no-repeat center/cover url("../pic/aspiration.jpg");
+}
+
+.artwork:nth-of-type(2) .image {
+    background: no-repeat center/cover url("../pic/dream.jpg");
+}
+
+.artwork:nth-of-type(3) .image {
+    background: no-repeat center/cover url("../pic/forest.jpg");
+}
+
+.artwork:nth-of-type(4) .image {
+    background: no-repeat center/cover url("../pic/harmony.png");
+}
+
+.artwork:nth-of-type(5) .image {
+    background: no-repeat center/cover url("../pic/umbrella.jpg");
+}
+
+.artwork:nth-of-type(6) .image {
+    background: no-repeat center/cover url("../pic/sunset.png");
+}
+
+.black {
+    display: inline;
+    position: absolute;
+    top: 32px;
+    text-align: center;
+    z-index: 2;
+}
+
+.artwork:nth-of-type(2n-1) .black {
+    left: 16vw;
+}
+
+.artwork:nth-of-type(2n) .black {
+    right: 16vw;
+}
+
+.black p {
+    color: #fdfdfd;
+    background-color: black;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 8px;
+    text-align: center;
+}
+
+.artwork {
+    margin: 16px 0;
+    height: 240px;
+}
+
+.artwork {
+    position: relative;
+    transition: .5s ease;
+    padding: 8px;
+    font-family: "tsunagi";
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.artwork:hover {
+    transform: scale(1.02);
+    background-color: #edeff5;
+}
+
+.artwork h2 {
+    font-family: "tormentor";
+    text-align: center;
+    font-size: 48px;
+    margin: 16px;
+}
+
+.artwork:nth-of-type(1) h2, .artwork:nth-of-type(4) h2 {
+    color: #6abdc8;
+    border-bottom: 2px solid #6abdc8;
+    transform: rotate(-3deg);
+}
+
+.artwork:nth-of-type(2) h2 {
+    color: #c04aa0;
+    border-bottom: 2px solid #c04aa0;
+    transform: rotate(2deg);
+    text-shadow: 0 0 10px #fdfdfd
+}
+
+.artwork:nth-of-type(3) h2 {
+    color: #d47d3b;
+    border-bottom: 2px solid #c98551;
+    transform: rotate(-3deg);
+    text-shadow: 0 1px 2px #fdfdfd
+}
+
+.artwork:nth-of-type(5) h2 {
+    color: #ac403c;
+    border-bottom: 2px solid #ac403c;
+    transform: rotate(-3deg);
+    text-shadow: 0 1px 2px #fdfdfd
+}
+
+.artwork:nth-of-type(6) h2 {
+    color: #2a2363;
+    border-bottom: 2px solid #2a2363;
+    transform: rotate(2deg);
+}
