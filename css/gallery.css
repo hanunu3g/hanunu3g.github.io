@@ -18,35 +18,35 @@ h1 {
     top: 0;
 }
 
-.artwork:nth-of-type(2n-1) .image {
+#middle a:nth-of-type(2n-1) .image {
     left: 0;
 }
 
-.artwork:nth-of-type(2n) .image {
+#middle a:nth-of-type(2n) .image {
     right: 0;
 }
 
-.artwork:nth-of-type(1) .image {
+#middle a:nth-of-type(1) .image {
     background: no-repeat center/cover url("../pic/aspiration.jpg");
 }
 
-.artwork:nth-of-type(2) .image {
+#middle a:nth-of-type(2) .image {
     background: no-repeat center/cover url("../pic/dream.jpg");
 }
 
-.artwork:nth-of-type(3) .image {
+#middle a:nth-of-type(3) .image {
     background: no-repeat center/cover url("../pic/forest.jpg");
 }
 
-.artwork:nth-of-type(4) .image {
+#middle a:nth-of-type(4) .image {
     background: no-repeat center/cover url("../pic/harmony.png");
 }
 
-.artwork:nth-of-type(5) .image {
+#middle a:nth-of-type(5) .image {
     background: no-repeat center/cover url("../pic/umbrella.jpg");
 }
 
-.artwork:nth-of-type(6) .image {
+#middle a:nth-of-type(6) .image {
     background: no-repeat center/cover url("../pic/sunset.png");
 }
 
@@ -58,11 +58,11 @@ h1 {
     z-index: 2;
 }
 
-.artwork:nth-of-type(2n-1) .black {
+#middle a:nth-of-type(2n-1) .black {
     left: 16vw;
 }
 
-.artwork:nth-of-type(2n) .black {
+#middle a:nth-of-type(2n) .black {
     right: 16vw;
 }
 
@@ -101,34 +101,34 @@ h1 {
     margin: 16px;
 }
 
-.artwork:nth-of-type(1) h2, .artwork:nth-of-type(4) h2 {
+#middle a:nth-of-type(1) h2, #middle a:nth-of-type(4) h2 {
     color: #6abdc8;
     border-bottom: 2px solid #6abdc8;
     transform: rotate(-3deg);
 }
 
-.artwork:nth-of-type(2) h2 {
+#middle a:nth-of-type(2) h2 {
     color: #c04aa0;
     border-bottom: 2px solid #c04aa0;
     transform: rotate(2deg);
     text-shadow: 0 0 10px #fdfdfd
 }
 
-.artwork:nth-of-type(3) h2 {
+#middle a:nth-of-type(3) h2 {
     color: #d47d3b;
     border-bottom: 2px solid #c98551;
     transform: rotate(-3deg);
     text-shadow: 0 1px 2px #fdfdfd
 }
 
-.artwork:nth-of-type(5) h2 {
+#middle a:nth-of-type(5) h2 {
     color: #ac403c;
     border-bottom: 2px solid #ac403c;
     transform: rotate(-3deg);
     text-shadow: 0 1px 2px #fdfdfd
 }
 
-.artwork:nth-of-type(6) h2 {
+#middle a:nth-of-type(6) h2 {
     color: #2a2363;
     border-bottom: 2px solid #2a2363;
     transform: rotate(2deg);
